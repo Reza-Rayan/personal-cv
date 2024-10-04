@@ -14,7 +14,7 @@ export default defineConfig({
     },
 
     manifest: {
-      name: 'cv-project',
+      name: 'Reza-Hosseinzadeh',
       short_name: 'Reza-Hosseinzadeh',
       description: 'This is a personal website && PWA',
       theme_color: '#212121',

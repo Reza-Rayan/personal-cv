@@ -12,11 +12,11 @@ const Navbar = () => {
   return (
     <div className="container mx-auto py-6 px-6 flex items-center justify-between">
       <div className="flex items-center gap-2">
-        <ThemeController />
         <Logo />
       </div>
-      <div className="lg:flex hidden items-center gap-x-6">
-        <ul className="flex items-center gap-x-4">
+      <div className="flex items-center gap-x-6">
+        <ThemeController />
+        <ul className="lg:flex hidden items-center gap-x-4">
           {NavbarItems.map((item) => (
             <NavbarItem
               key={item.id}
