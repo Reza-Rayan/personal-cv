@@ -13,7 +13,7 @@ const ProductsList = ({ filter }: ProductsListProps) => {
   });
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 ">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
       {filteredProduct ? (
         filteredProduct.map((product) => (
           <ProductCard
