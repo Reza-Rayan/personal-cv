@@ -15,3 +15,14 @@ body {
   outline: none;
   box-sizing: border-box;
 }
+
+
+.title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -10px;
+}

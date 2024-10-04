@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
         {/* End Here */}
       </div>
-      <div>
+      <div className="tooltip tooltip-right" data-tip="He is not me!">
         <img
           src={heroImage}
           alt="Reza Hosseinzadeh"
