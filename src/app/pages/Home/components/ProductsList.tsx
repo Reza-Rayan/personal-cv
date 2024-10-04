@@ -22,6 +22,7 @@ const ProductsList = ({ filter }: ProductsListProps) => {
             description={product.description}
             image={product.image}
             link={product.url}
+            location={product.location}
           />
         ))
       ) : (

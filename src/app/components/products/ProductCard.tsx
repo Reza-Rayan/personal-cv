@@ -1,11 +1,21 @@
+// Icons
+import { FaLocationDot } from "react-icons/fa6";
+// -----------------------------------------------
 interface ProductCardProps {
   title: string;
   description: string;
   link: string;
   image: string;
+  location: string;
 }
 
-const ProductCard = ({ title, description, link, image }: ProductCardProps) => {
+const ProductCard = ({
+  title,
+  description,
+  link,
+  image,
+  location,
+}: ProductCardProps) => {
   return (
     <div className="card bg-base-100 w-96 shadow-xl">
       <figure>
@@ -14,8 +24,12 @@ const ProductCard = ({ title, description, link, image }: ProductCardProps) => {
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
+        <div className="flex items-center gap-1">
+          <FaLocationDot />
+          <span>{location}</span>
+        </div>
         <div className="card-actions justify-end">
-          <a href={link} className="btn btn-secondary">
+          <a target="_blank" href={link} className="btn btn-secondary">
             Go to website
           </a>
         </div>
