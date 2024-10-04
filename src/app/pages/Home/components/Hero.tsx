@@ -29,7 +29,7 @@ const Hero = () => {
           and see resume of my work.
         </p>
         {/* Badges */}
-        <div className="lg:flex gap-4 mt-6 grid grid-cols-3">
+        <div className="lg:flex gap-2 mt-6 grid grid-cols-3">
           <span className="badge badge-outline badge-secondary">
             Javascript
           </span>
@@ -40,6 +40,8 @@ const Hero = () => {
           <span className="badge badge-outline badge-success">
             Redux-Toolkit
           </span>
+          <span className="badge badge-outline badge-primary">NodeJs</span>
+          <span className="badge badge-outline badge-error">Wordpress</span>
         </div>
         {/* End Here */}
       </div>
