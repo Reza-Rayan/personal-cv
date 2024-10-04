@@ -15,7 +15,7 @@ const Navbar = () => {
         <ThemeController />
         <Logo />
       </div>
-      <div className="flex items-center gap-x-6">
+      <div className="lg:flex hidden items-center gap-x-6">
         <ul className="flex items-center gap-x-4">
           {NavbarItems.map((item) => (
             <NavbarItem

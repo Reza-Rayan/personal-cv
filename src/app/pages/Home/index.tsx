@@ -1,8 +1,14 @@
+// Custom Components
+import Hero from "./components/Hero";
+import BgShapes from "./components/BgShapes";
+//
+
 const HomPg = () => {
   return (
-    <div>
-      <h1>Reza Hosseinzadeh</h1>
-    </div>
+    <>
+      <BgShapes />
+      <Hero />
+    </>
   );
 };
 
