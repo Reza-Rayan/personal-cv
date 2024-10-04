@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <section>
       <Title center>My Skills</Title>
-      <ul className="grid grid-cols-1 lg:grid-cols-5 mt-10 gap-10">
+      <ul className="grid grid-cols-2 lg:grid-cols-5 mt-10 gap-10">
         {skills.map((skill: Skill) => {
           // Define the style object
           const style: CSSProperties = {
