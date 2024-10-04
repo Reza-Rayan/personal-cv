@@ -26,7 +26,10 @@ const Navbar = () => {
             />
           ))}
         </ul>
-        <Link to={"/contact-me"} className="btn btn-outline btn-primary">
+        <Link
+          to={"/contact-me"}
+          className="lg:flex hidden btn btn-outline btn-primary"
+        >
           <FaPhoneAlt />
           Contact Me
         </Link>
